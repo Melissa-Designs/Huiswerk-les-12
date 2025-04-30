@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    height: 100px;
+    background-color: #FFEEE8;
+    color: black;
+    padding: 0px;
+}
+
+#body   {
+    height: 400px;
+    background-color: white;
+    color: black;
+    padding: 0px;
+
+}
+
+#h1     {color: #32292F; text-align: center;}
+
+#intro-tekst {color: #32292F; text-align: center;}
+
+
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin: 50px auto;
+}
+
+
+td {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ccc;
+    text-align: center;
+    vertical-align: middle;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+/* Unieke achtergrondkleuren en afbeeldingen voor de gevulde cellen */
+#cel1  { background-color: #9b111e; } /*Ruby red*/
+#cel2  { background-color: #d4edda; background-image: url(Afbeeldingen/Ruby-red.jpg); background-size: cover; background-position: 0%;}
+#cel3  { background-color: #4472CA; } /*Celtic blue*/
+#cel4  { background-color: #fff3cd; background-image: url(Afbeeldingen/Celtic-blue.jpg); background-size: cover; background-position: 0%;}
+#cel5  { background-color: #ff2400; } /*Scarlet*/
+#cel6  { background-color: #c3e6cb; background-image: url(Afbeeldingen/Syracuse-Red-Orange.jpg); background-size: cover; background-position: 0%;}
+#cel7  { background-color: #64113F; } /*Tyrian purple*/
+#cel8  { background-color: #ffeeba; background-image: url(Afbeeldingen/tyrian-purple.jpg); background-size: cover; background-position: 0%;}
+#cel9  { background-color: #FFDD35; } /*School bus yellow*/
+#cel10 { background-color: #82e0aa; background-image: url(Afbeeldingen/school-bus-yellow.jpg); background-size: cover; background-position: 0%;}
+#cel11 { background-color: #3F00FF; } /*indigo*/
+#cel12 { background-color: #f7dc6f; background-image: url(Afbeeldingen/Indigo.jpg); background-size: cover; background-position: 0%;}
+#cel13 { background-color: #3EC300; } /*Kelly green*/
+#cel14 { background-color: #58d68d; background-image: url(Afbeeldingen/Kelly-green.jpg); background-size: cover; background-position: 0%;}
+#cel15 { background-color: #C8A2C8; } /*Lilac*/
+#cel16 { background-color: #f4d03f; background-image: url(Afbeeldingen/Lilac.jpg); background-size: cover; background-position: 0%;}
+
+
+#footer {
+    height: 120px;
+    background-color: #FFEEE8;
+    color: black;
+    padding: 0px;
+}
